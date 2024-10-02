@@ -1,0 +1,116 @@
+/* Root CSS Variables */
+:root {
+    --primary-color: #FB8500;
+    --secondary-color: #FFB703;
+    --accent-color: #219EBC;
+    --background-color: #8ECAE6;
+    --font-heading: 'Lora', serif;
+    --font-body: 'Open Sans', sans-serif;
+}
+
+/* Reset and Basic Styling */
+body, h1, h2, p {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: var(--font-body);
+    background-color: var(--background-color);
+    color: #000;
+}
+
+/* Header Styling */
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: var(--primary-color);
+}
+
+header .logo {
+    width: 150px;
+}
+
+header nav a {
+    margin: 0 15px;
+    color: #fff;
+    text-decoration: none;
+    font-weight: 700;
+}
+
+header nav a:hover {
+    color: var(--secondary-color);
+}
+
+/* Hero Section Styling */
+.hero {
+    position: relative;
+    text-align: center;
+    padding: 50px;
+}
+
+.hero-img {
+    width: 100%;
+    height: auto;
+}
+
+.hero h1 {
+    position: absolute;
+    top: 20%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 3rem;
+    color: #fff;
+    font-family: var(--font-heading);
+}
+
+.hero article {
+    position: absolute;
+    bottom: 10%;
+    right: 20%;
+    background: rgba(255, 255, 255, 0.8);
+    padding: 20px;
+    width: 300px;
+    border-radius: 10px;
+}
+
+.hero article .client-img {
+    float: left;
+    width: 50px;
+    margin-right: 10px;
+}
+
+/* Section Styling */
+section {
+    padding: 20px;
+}
+
+section h2 {
+    font-family: var(--font-heading);
+    color: var(--accent-color);
+}
+
+section img {
+    width: 18%;
+    margin: 10px;
+    border: 2px solid var(--secondary-color);
+}
+
+/* Footer Styling */
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: var(--primary-color);
+    color: #fff;
+}
+
+footer .social-links a {
+    margin: 0 10px;
+}
+
+footer .social-links img {
+    width: 30px;
+}
