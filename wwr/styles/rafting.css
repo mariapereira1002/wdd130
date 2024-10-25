@@ -72,75 +72,103 @@ body {
     font-family: var(--font-heading);
 }
 
-.hero article {
-    position: absolute;
-    bottom: 10%;
-    right: 20%;
-    background: rgba(255, 255, 255, 0.8);
-    padding: 20px;
-    width: 300px;
-    border-radius: 10px;
+/* Newsletter Section Styling */
+.newsletter {
+    background-color: var(--accent-color);
+    padding: 30px;
+    text-align: center;
+    color: #fff;
 }
 
-.hero article .client-img {
-    float: left;
-    width: 50px;
-    margin-right: 10px;
-    border-radius: 50%;
-}
-
-/* Section Styling */
-section {
-    padding: 20px;
-}
-
-/* History Section */
-.history {
-    display: flex;
-    flex-direction: column;
-    margin: 2em 0;
-    padding: 1em;
-    background-color: rgba(255, 255, 255, 0.9);
-    border-radius: 10px;
-}
-
-section h2 {
+.newsletter h2 {
     font-family: var(--font-heading);
-    color: var(--accent-color);
-    margin-bottom: 10px;
-}
-
-section p {
-    line-height: 1.6;
+    color: #fff;
     margin-bottom: 20px;
 }
 
-/* Adventures Section */
-.adventures {
-    display: grid;
-    grid-template-columns: repeat(5, 1fr);
-    gap: 1em;
-    text-align: center;
+.newsletter form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
-.adventures figure {
-    margin: 0;
+.newsletter label {
+    margin-bottom: 10px;
+}
+
+.newsletter input {
     padding: 10px;
-    background-color: #fff;
-    border: 1px solid var(--secondary-color);
-    border-radius: 8px;
+    margin-bottom: 15px;
+    width: 250px;
+    border: none;
+    border-radius: 5px;
 }
 
-.adventures img {
+.newsletter button {
+    padding: 10px 20px;
+    background-color: var(--secondary-color);
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.newsletter button:hover {
+    background-color: var(--primary-color);
+}
+
+/* Grid Layout for Trips Overview Section */
+.trips-overview {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* Define 3 colunas para as imagens e conteúdo */
+    gap: 20px;
+    text-align: center;
+    padding: 20px;
+}
+
+.trips-overview .trip {
+    background-color: #fff;
+    padding: 15px;
+    border-radius: 8px;
+    border: 1px solid var(--secondary-color);
+}
+
+.trips-overview .trip-img {
     width: 100%;
     height: auto;
     border-radius: 8px;
 }
 
-.adventures figcaption {
-    font-style: italic;
+.trips-overview h3 {
+    margin-top: 10px;
+    font-family: var(--font-heading);
     color: var(--accent-color);
+}
+
+.trips-overview p {
     margin-top: 5px;
+    line-height: 1.5;
+}
+
+/* Call to Action Button */
+.cta {
+    text-align: center;
+    margin: 40px 0;
+}
+
+.cta .btn {
+    padding: 15px 30px;
+    background-color: var(--primary-color);
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+.cta .btn:hover {
+    background-color: var(--secondary-color);
 }
 
 /* Footer Styling */
