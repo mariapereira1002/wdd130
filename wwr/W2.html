@@ -1,34 +1,65 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en-US">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="This is a sample home page for the course with information about my state or country.">
-    <meta name="author" content="Your Name">
-    <title>Course Home Page</title>
-    <link rel="stylesheet" href="styles.css">
+    <title>Maria Eduarda | WDD 130</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            flex-direction: column;
+            min-height: 100vh;
+        }
+        header {
+            background-color: #554865;
+            padding: 10px;
+            text-align: center;
+            color: black;
+        }
+        nav a {
+            color: white;
+            margin: 0 15px;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        main {
+            flex: 1;
+            padding: 20px;
+            text-align: center;
+        }
+        footer {
+            background-color: #554865;
+            color: white;
+            text-align: center;
+            padding: 10px;
+        }
+        img {
+            border-radius: 50%;
+            margin: 20px 0;
+        }
+    </style>
 </head>
 <body>
     <header>
-        <h1>Welcome to My Course Home Page</h1>
+        <nav>
+            <a href="#">Home</a>
+            <a href="#">About</a>
+            <a href="#">Contact</a>
+        </nav>
     </header>
 
     <main>
-        <section>
-            <h2>Maria Eduarda Martins Pereira | WDD 130</h2>
-            <p>Hello, my name is Maria Eduarda, I'm Brazilian, I live in São Paulo and I love to travel!</p>
-            <img src="images/" alt="Sample image for main content">
-        </section>
+        <h1>Maria Eduarda and WDD 130</h1>
+        <img src="images/profile.jpg" alt="Profile Image" width="200">
+        <p>Hello, my name is Maria Eduarda, I'm Brazilian, I live in São Paulo and I love to travel!</p>
+        <p>Brazil is the largest country in South America, known for its diverse culture, beautiful landscapes, and the Amazon rainforest.</p>
     </main>
 
-    <aside>
-        <h2>Brazil</h2>
-        <img src="images/brazil.jpg" alt="Brazil flag">
-        <p>Brazil is the largest country in South America, known for its diverse culture, beautiful landscapes, and the Amazon rainforest.</p>
-    </aside>
-
     <footer>
-        <p>&copy; 2024 Your Name. All rights reserved.</p>
+        <p>© 2024 Maria Eduarda, Brazil. All rights reserved.</p>
     </footer>
 </body>
 </html>
