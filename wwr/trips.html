@@ -4,12 +4,19 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="White Water Rafting - Choose from our exciting rafting trip options">
-    <title>Trips | White Water Rafting</title>
+    <title>Trips | Rafting Adventures</title>
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lora:wght@400;700&family=Open+Sans:wght@400;700&display=swap" rel="stylesheet">
+    <!-- Link to CSS -->
     <link rel="stylesheet" href="styles/rafting2.css">
 </head>
 <body>
-    <header>
-        <nav>
+    <!-- Header Section -->
+    <header class="header">
+        <img src="images/LOGO Rafting (1).png" alt="Rafting Adventures Logo" class="logo">
+        <nav class="nav">
             <a href="index.html">Home</a>
             <a href="about.html">About Us</a>
             <a href="trips.html">Trips</a>
@@ -17,31 +24,38 @@
         </nav>
     </header>
 
+    <!-- Main Content Section -->
     <main>
-        <h1>Our Rafting Trips</h1>
-
-        <!-- Trip Descriptions -->
-        <section class="trips">
-            <article>
-                <img src="images/5.png" alt="Family rafting trip">
-                <h2>Family Rafting Adventure</h2>
-                <p>A calm and scenic trip ideal for beginners and families with young children.</p>
-            </article>
-
-            <article>
-                <img src="images/4.png" alt="Challenging rapids">
-                <h2>Advanced Rapids Challenge</h2>
-                <p>For thrill-seekers, this trip includes some of the most challenging rapids.</p>
-            </article>
-
-            <article>
-                <img src="images/3.png" alt="Mountain scenery and rafting">
-                <h2>Scenic Mountain Tour</h2>
-                <p>Explore breathtaking landscapes as you navigate gentle rivers.</p>
-            </article>
+        <!-- Hero Section -->
+        <section class="hero">
+            <img src="images/rafting-hero.jpg" alt="Rafting Adventure" class="hero-img">
+            <h1>Discover Our Exciting Rafting Trips</h1>
+            <p>From scenic family tours to adrenaline-pumping rapids, we have something for everyone.</p>
         </section>
 
-        <!-- Trip Details Table -->
+        <!-- Trip Descriptions Section -->
+        <section class="trips-overview">
+            <div class="trip">
+                <img src="images/5.png" alt="Family Rafting Adventure" class="trip-img">
+                <h3>Family Rafting Adventure</h3>
+                <p>A calm and scenic trip ideal for beginners and families with young children.</p>
+                <a href="contact.html" class="btn">Book Now</a>
+            </div>
+            <div class="trip">
+                <img src="images/4.png" alt="Advanced Rapids Challenge" class="trip-img">
+                <h3>Advanced Rapids Challenge</h3>
+                <p>For thrill-seekers, this trip includes some of the most challenging rapids.</p>
+                <a href="contact.html" class="btn">Book Now</a>
+            </div>
+            <div class="trip">
+                <img src="images/3.png" alt="Scenic Mountain Tour" class="trip-img">
+                <h3>Scenic Mountain Tour</h3>
+                <p>Explore breathtaking landscapes as you navigate gentle rivers.</p>
+                <a href="contact.html" class="btn">Book Now</a>
+            </div>
+        </section>
+
+        <!-- Trip Details Table Section -->
         <section class="trip-table">
             <h2>Available Rafting Trips</h2>
             <table>
@@ -76,15 +90,21 @@
             </table>
         </section>
 
-        <!-- Call to Action to Contact -->
+        <!-- Call to Action (CTA) Section -->
         <section class="cta">
-            <h2>Ready to Book?</h2>
-            <p><a href="contact.html" class="btn">Contact Us Today!</a></p>
+            <h2>Ready for an Adventure?</h2>
+            <a href="contact.html" class="btn">Contact Us Today!</a>
         </section>
     </main>
 
-    <footer>
-        <p>&copy; 2024 White Water Rafting. <a href="images/wireframe.jpg">View the wireframe</a></p>
+    <!-- Footer Section -->
+    <footer class="footer">
+        <p>&copy; 2024 Rafting Adventures | Designed by Maria Eduarda Martins Pereira</p>
+        <nav class="social-links">
+            <a href="https://facebook.com"><img src="images/facebook.png" alt="Facebook"></a>
+            <a href="https://twitter.com"><img src="images/twitter.png" alt="Twitter"></a>
+            <a href="https://instagram.com"><img src="images/instagram.png" alt="Instagram"></a>
+        </nav>
     </footer>
 </body>
 </html>
