@@ -59,41 +59,11 @@ body {
     padding: 50px;
 }
 
-.hero-img {
-    width: 100%;
-    height: auto;
-}
-
-.hero h1 {
-    position: absolute;
-    top: 20%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    font-size: 3rem;
-    color: #fff;
-    font-family: var(--font-heading);
-}
-
-.hero article {
-    position: absolute;
-    bottom: 10%;
-    right: 20%;
-    background: rgba(255, 255, 255, 0.8);
-    padding: 20px;
-    width: 300px;
-    border-radius: 10px;
-}
-
-.hero article .client-img {
-    float: left;
-    width: 50px;
-    margin-right: 10px;
-    border-radius: 50%;
-}
-
-/* Section Styling */
-section {
-    padding: 20px;
+/* Ícones de contato */
+.icon {
+    width: 20px;
+    margin-right: 0.5rem;
+    vertical-align: middle;
 }
 
 /* History Section */
