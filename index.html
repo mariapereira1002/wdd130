@@ -4,53 +4,16 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Maria Eduarda | WDD 130</title>
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            margin: 0;
-            padding: 0;
-            display: flex;
-            flex-direction: column;
-            min-height: 100vh;
-        }
-        header {
-            background-color: #554865;
-            padding: 10px;
-            text-align: center;
-            color: black;
-        }
-        nav a {
-            color: white;
-            margin: 0 15px;
-            text-decoration: none;
-            font-weight: bold;
-        }
-        main {
-            flex: 1;
-            padding: 20px;
-            text-align: center;
-        }
-        footer {
-            background-color: #554865;
-            color: white;
-            text-align: center;
-            padding: 10px;
-        }
-        img {
-            border-radius: 50%;
-            margin: 20px 0;
-        }
-        .city-image {
-            width: 300px;
-            margin-top: 20px;
-        }
-    </style>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lora:wght@400;700&family=Open+Sans:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles/style(myhomepage).css">
 </head>
 <body>
     <header>
         <nav>
             <a href="#">Home</a>
-            <a href="wwr/index.html">Rafiting Website</a>
+            <a href="wwr/index.html">Rafting Website</a>
             <a href="https://www.linkedin.com/in/maria-eduarda-martins-pereira-81a6162b2/" target="_blank">LinkedIn</a>
         </nav>
     </header>
@@ -61,18 +24,24 @@
         <p>Hello! My name is Maria Eduarda, and I am currently studying Web and Computer Programming as part of the WDD 130 course. 
             I have a passion for technology and enjoy learning new things every day. I am excited to improve my coding skills and contribute to the tech world. 
             Thank you for visiting my webpage!</p>
-        <p>I live in São Paulo and I love to travel! Brazil is the largest country in South America, known for its diverse culture, beautiful landscapes, and the Amazon rainforest.</p>
         
-        <!-- New section for São Paulo -->
         <section>
             <h2>I love São Paulo!</h2>
             <img class="city-image" src="images/sao_paulo.jpg" alt="A beautiful view of São Paulo">
+            <p>Brazil is the largest country in South America, known for its diverse culture, beautiful landscapes, and the Amazon rainforest.</p>
             <p>São Paulo is my home city, and I absolutely love its vibrant culture, rich history, and the endless things to do. It’s a city that never sleeps, and I feel proud to be a part of it!</p>
         </section>
     </main>
+
+    <aside class="box">
+        <h2>About Brazil</h2>
+        <img src="images/brazil_flag.jpg" alt="Brazil Flag" width="200">
+        <p>Brazil is famous for its Carnival, football, and vibrant traditions. It’s a country of warmth and beautiful landscapes!</p>
+    </aside>
 
     <footer>
         <p>© 2024 Maria Eduarda, Brazil. All rights reserved.</p>
     </footer>
 </body>
 </html>
+
