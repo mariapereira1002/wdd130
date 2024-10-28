@@ -198,3 +198,51 @@ body {
 .social-links a img:hover {
     transform: scale(1.1);
 }
+
+/* Employee Profiles */
+.team {
+    text-align: center;
+    margin: 20px 0;
+}
+
+.employee-profiles {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.employee img {
+    width: 150px;
+    border-radius: 50%;
+    margin-bottom: 10px;
+}
+
+.employee figcaption {
+    font-family: var(--font-body);
+    font-weight: bold;
+    color: var(--accent-color);
+}
+
+/* Contact Form */
+.contact-form .radio-options {
+    display: flex;
+    gap: 10px;
+    margin: 10px 0;
+}
+
+.contact-form .radio-options label {
+    font-family: var(--font-body);
+    color: #000;
+}
+
+.newsletter-opt {
+    display: flex;
+    align-items: center;
+    margin: 10px 0;
+}
+
+.newsletter-opt label {
+    margin-left: 8px;
+    font-family: var(--font-body);
+    color: #000;
+}

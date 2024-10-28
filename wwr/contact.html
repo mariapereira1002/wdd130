@@ -15,7 +15,7 @@
 <body>
     <!-- Header Section -->
     <header class="header">
-        <img src="images/LOGO Rafting (1).png" "Whitewater Rafting Logo" class="logo">
+        <img src="images/LOGO Rafting (1).png" alt="Whitewater Rafting Logo" class="logo">
         <nav class="nav">
             <a href="index.html">Home</a>
             <a href="about.html">About Us</a>
@@ -27,13 +27,39 @@
     <!-- Main Content Section -->
     <main>
         <h1>Contact Us</h1>
+
+        <!-- Contact Information Section -->
         <section class="contact-info">
             <p>We would love to hear from you! Please reach out to us with any questions or comments.</p>
             <p><strong>Email:</strong> info@whitewaterrafting.com</p>
             <p><strong>Phone:</strong> +1 (555) 123-4567</p>
             <p><strong>Address:</strong> 123 River Road, Rapids City, RC 12345</p>
+            <!-- Embedded Google Maps -->
+            <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3151.8354345093685!2d144.9537353157738!3d-37.81627997975157!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6ad65d43f0ad1bf7%3A0x5045675218ce7e0!2s123%20River%20Road%2C%20Rapids%20City!5e0!3m2!1sen!2sus!4v1602332073651!5m2!1sen!2sus"
+                width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
         </section>
 
+        <!-- Employee Profiles Section -->
+        <section class="team">
+            <h2>Meet Our Team</h2>
+            <div class="employee-profiles">
+                <figure class="employee">
+                    <img src="images/employee1.jpg" alt="Employee 1">
+                    <figcaption>John Doe - Tour Guide</figcaption>
+                </figure>
+                <figure class="employee">
+                    <img src="images/employee2.jpg" alt="Employee 2">
+                    <figcaption>Jane Smith - Customer Service</figcaption>
+                </figure>
+                <figure class="employee">
+                    <img src="images/employee3.jpg" alt="Employee 3">
+                    <figcaption>Emily Johnson - Operations Manager</figcaption>
+                </figure>
+            </div>
+        </section>
+
+        <!-- Contact Form Section -->
         <section class="contact-form">
             <h2>Send Us a Message</h2>
             <form action="submit_form.html" method="post">
@@ -43,8 +69,23 @@
                 <label for="email">Email:</label>
                 <input type="email" id="email" name="email" required>
 
+                <label for="purpose">Purpose of Message:</label>
+                <div class="radio-options">
+                    <input type="radio" id="general" name="purpose" value="General Inquiry" required>
+                    <label for="general">General Inquiry</label>
+                    <input type="radio" id="reservation" name="purpose" value="Reservation Question">
+                    <label for="reservation">Reservation Question</label>
+                    <input type="radio" id="suggestion" name="purpose" value="Website Suggestion">
+                    <label for="suggestion">Website Suggestion</label>
+                </div>
+
                 <label for="message">Message:</label>
                 <textarea id="message" name="message" rows="5" required></textarea>
+
+                <div class="newsletter-opt">
+                    <input type="checkbox" id="subscribe" name="subscribe">
+                    <label for="subscribe">Please subscribe me to the monthly newsletter</label>
+                </div>
 
                 <button type="submit">Submit</button>
             </form>
@@ -59,6 +100,7 @@
             <a href="https://twitter.com"><img src="images/twitter.png" alt="Twitter"></a>
             <a href="https://instagram.com"><img src="images/instagram.png" alt="Instagram"></a>
         </nav>
+        <a href="wireframe-contact.png">Contact Page Wireframe</a> <!-- Placeholder link -->
     </footer>
 </body>
 </html>
