@@ -228,7 +228,7 @@ footer .social-links a img:hover {
     position: relative;
     text-align: center;
     color: white;
-    background-color: #333;
+    background-color: #ffffff;
     overflow: hidden;
 }
 
@@ -244,13 +244,13 @@ footer .social-links a img:hover {
     left: 50%;
     transform: translate(-50%, -50%);
     font-size: 2.5rem;
-    color: #8ECAE6;
+    color: #ffffff;
     font-family: 'Lora', serif;
 }
 
 /* Newsletter Sign-Up Section */
 .home-page .newsletter {
-    background-color: #8ECAE6;
+    background-color: #FB8500;
     padding: 2rem;
     text-align: center;
 }
