@@ -219,15 +219,47 @@ footer .social-links a img:hover {
     transform: scale(1.1);
 }
 
+.home-page {
+    font-family: 'Open Sans', sans-serif;
+}
+
+/* Hero Section */
+.home-page .hero {
+    position: relative;
+    text-align: center;
+    color: white;
+    background-color: #333;
+    overflow: hidden;
+}
+
+.home-page .hero-img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+}
+
+.home-page .hero h1 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 2.5rem;
+    color: #ffd700;
+    font-family: 'Lora', serif;
+}
+
+/* Newsletter Sign-Up Section */
 .home-page .newsletter {
-    background-color: #8ECAE6;
+    background-color: #ffd700;
     padding: 2rem;
     text-align: center;
 }
 
 .home-page .newsletter h2 {
-    font-size: 1.8rem;
+    font-size: 2rem;
     margin-bottom: 1rem;
+    font-family: 'Lora', serif;
+    color: #1c1c1c;
 }
 
 .home-page .newsletter form {
@@ -244,6 +276,7 @@ footer .social-links a img:hover {
     max-width: 300px;
     border: 1px solid #ccc;
     border-radius: 5px;
+    margin-bottom: 1rem;
 }
 
 .home-page .newsletter button {
@@ -254,13 +287,14 @@ footer .social-links a img:hover {
     font-size: 1rem;
     border-radius: 5px;
     cursor: pointer;
+    font-weight: bold;
 }
 
 .home-page .newsletter button:hover {
     background-color: #333;
 }
 
-/* Seção de overview das viagens */
+/* Trips Overview Section */
 .home-page .trips-overview {
     display: flex;
     justify-content: space-around;
@@ -274,6 +308,7 @@ footer .social-links a img:hover {
     font-size: 2rem;
     color: #333;
     margin-bottom: 1.5rem;
+    font-family: 'Lora', serif;
 }
 
 .home-page .trip {
@@ -292,13 +327,14 @@ footer .social-links a img:hover {
     font-size: 1.5rem;
     color: #1c1c1c;
     margin-bottom: 0.5rem;
+    font-family: 'Lora', serif;
 }
 
 .home-page .trip p {
     color: #666;
 }
 
-/* Seção de chamada para ação (CTA) */
+/* Call to Action (CTA) Section */
 .home-page .cta {
     text-align: center;
     padding: 2rem 0;
@@ -306,7 +342,7 @@ footer .social-links a img:hover {
 }
 
 .home-page .cta .btn {
-    background-color: #8ECAE6;
+    background-color: #ffd700;
     color: #1c1c1c;
     padding: 1rem 2rem;
     font-size: 1.2rem;
@@ -317,5 +353,5 @@ footer .social-links a img:hover {
 }
 
 .home-page .cta .btn:hover {
-    background-color: #8ECAE6;
+    background-color: #e6b800;
 }
