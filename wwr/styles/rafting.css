@@ -218,3 +218,104 @@ footer .social-links a img {
 footer .social-links a img:hover {
     transform: scale(1.1);
 }
+
+.home-page .newsletter {
+    background-color: #8ECAE6;
+    padding: 2rem;
+    text-align: center;
+}
+
+.home-page .newsletter h2 {
+    font-size: 1.8rem;
+    margin-bottom: 1rem;
+}
+
+.home-page .newsletter form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.home-page .newsletter input[type="text"],
+.home-page .newsletter input[type="email"] {
+    padding: 0.7rem;
+    width: 100%;
+    max-width: 300px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.home-page .newsletter button {
+    padding: 0.7rem 1.5rem;
+    border: none;
+    background-color: #1c1c1c;
+    color: white;
+    font-size: 1rem;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.home-page .newsletter button:hover {
+    background-color: #333;
+}
+
+/* Seção de overview das viagens */
+.home-page .trips-overview {
+    display: flex;
+    justify-content: space-around;
+    padding: 2rem;
+    background-color: #f4f4f4;
+}
+
+.home-page .trips-overview h2 {
+    text-align: center;
+    width: 100%;
+    font-size: 2rem;
+    color: #333;
+    margin-bottom: 1.5rem;
+}
+
+.home-page .trip {
+    text-align: center;
+    width: 30%;
+}
+
+.home-page .trip-img {
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+    margin-bottom: 1rem;
+}
+
+.home-page .trip h3 {
+    font-size: 1.5rem;
+    color: #1c1c1c;
+    margin-bottom: 0.5rem;
+}
+
+.home-page .trip p {
+    color: #666;
+}
+
+/* Seção de chamada para ação (CTA) */
+.home-page .cta {
+    text-align: center;
+    padding: 2rem 0;
+    background-color: #333;
+}
+
+.home-page .cta .btn {
+    background-color: #8ECAE6;
+    color: #1c1c1c;
+    padding: 1rem 2rem;
+    font-size: 1.2rem;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+    font-family: 'Lora', serif;
+}
+
+.home-page .cta .btn:hover {
+    background-color: #8ECAE6;
+}
