@@ -244,13 +244,13 @@ footer .social-links a img:hover {
     left: 50%;
     transform: translate(-50%, -50%);
     font-size: 2.5rem;
-    color: #ffd700;
+    color: #8ECAE6;
     font-family: 'Lora', serif;
 }
 
 /* Newsletter Sign-Up Section */
 .home-page .newsletter {
-    background-color: #ffd700;
+    background-color: #8ECAE6;
     padding: 2rem;
     text-align: center;
 }
@@ -342,7 +342,7 @@ footer .social-links a img:hover {
 }
 
 .home-page .cta .btn {
-    background-color: #ffd700;
+    background-color: #8ECAE6;
     color: #1c1c1c;
     padding: 1rem 2rem;
     font-size: 1.2rem;
